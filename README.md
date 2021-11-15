@@ -3,7 +3,7 @@
 [![webpack][webpack]][webpack-url]
 [![node][node]][node-url]
 
-This package is dev dependency for the "[Fkit](https://github.com/ucoline/fkit)".
+This core package is dev dependency for the "[Fkit](https://github.com/ucoline/fkit)".
 
 ## Learn More
 
