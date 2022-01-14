@@ -1,6 +1,6 @@
 {
   "name": "fkit-core",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This core package is dev dependency for the Fkit.",
   "main": "index.js",
   "scripts": {

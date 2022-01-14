@@ -261,7 +261,7 @@ module.exports = class HtmlPagesGenerator {
             if (file != undefined && file.length > 3) {
                 const ext3 = file.substr(file.length - 3);
 
-                if (ext3 != undefined && ext3 == '.js') {
+                if (ext3 != undefined && ext3 == '.js' && contents != undefined && typeof contents === 'string') {
                     var string = contents.replace(/(\r\n|\n|\r)/gm, "");
 
                     if (string.replace(/\s/g, '') == '') {
@@ -274,7 +274,7 @@ module.exports = class HtmlPagesGenerator {
             if (file != undefined && file.length > 4) {
                 const ext4 = file.substr(file.length - 4);
 
-                if (ext4 != undefined && ext4 == '.css') {
+                if (ext4 != undefined && ext4 == '.css' && contents != undefined && typeof contents === 'string') {
                     var string = contents.replace(/(\r\n|\n|\r)/gm, "");
 
                     if (string.replace(/\s/g, '') == '') {
